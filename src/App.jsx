@@ -1,25 +1,19 @@
 import React from "react";
 import "./App.css";
-import { Component } from "./components/Component/Component";
 
 import { Navbar } from "./components/Navbar/Navbar";
-import { Props } from "./components/Props/Props";
-import { Routes, Route } from "react-router-dom";
+import { AppRouter } from "router/AppRouter";
 
 function App() {
   return (
-    <div className="App-wrapper">
-      <div className="App-main">
-        <div className="App-navbar">
+    <div className="app-wrapper">
+      <div className="app-main">
+        <div className="app-navbar">
           <Navbar />
         </div>
-        <div className="App-content">
+        <div className="app-content">
           <div className="app-container">
-            <Routes>
-              <Route path="/" element={<Props />} />
-              <Route path="/component" element={<Component />} />
-              hello
-            </Routes>
+            <AppRouter />
           </div>
         </div>
       </div>

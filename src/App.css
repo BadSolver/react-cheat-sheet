@@ -1,39 +1,32 @@
-.App-wrapper {
+.app-wrapper {
   background-color: black;
   width: 100%;
   height: 100%;
 }
 
-/* .App-container {
-  background-image: url(./assets/logo/obsidianLogo\ 1.png);
-  background-repeat: no-repeat;
-  background-position: right 20% top 15%;
-  position: relative;
-} */
-.App-wrapper {
+.app-wrapper {
   background-image: url(./assets/logo/background.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:100%;
 }
-.App-main {
+.app-main {
   display: flex;
   flex-direction: row;
 }
 
-.App-navbar {
- 
+.app-navbar {
   display: flex;
   flex-direction: column;
-  
-  font-size: 20px;
 }
-
+.app-content {
+  width: 70%;
+}
 .app-container {
   position: relative;
   margin: 30px auto 30px auto;
   padding: 50px;
-  max-width: 60%;
+  width: 60%;
   background: rgba(45,38,46, 73%);
-    border: 1px solid black;
-    border-radius: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
 }
