@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+.App-wrapper {
+  background-color: black;
+  width: 100%;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .App-container {
+  background-image: url(./assets/logo/obsidianLogo\ 1.png);
+  background-repeat: no-repeat;
+  background-position: right 20% top 15%;
+  position: relative;
+} */
+.App-wrapper {
+  background-image: url(./assets/logo/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.App-main {
+  display: flex;
+  flex-direction: row;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-navbar {
+ 
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+  font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-container {
+  position: relative;
+  margin: 30px auto 30px auto;
+  padding: 50px;
+  max-width: 60%;
+  background: rgba(45,38,46, 73%);
+    border: 1px solid black;
+    border-radius: 10px;
 }
