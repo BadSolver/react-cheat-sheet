@@ -1,0 +1,17 @@
+.state-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.state-btn {
+    width: 70px;
+    height: 35px;
+    background-color: #F19F2F;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+.state-count {
+    width: 60px;
+    text-align: center;
+}
