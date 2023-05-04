@@ -1,7 +1,7 @@
-import { CardWithCode } from "components/CardWithCode";
-import { Title } from "components/Title";
+
 import React, { useState } from "react";
 import "./style.css";
+import { CardWithCode, Title } from "components";
 
 export const State = () => {
   const [state, setState] = useState(0);

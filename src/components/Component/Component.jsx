@@ -1,7 +1,5 @@
+import { CardWithCode, SelectedText, Title } from "components";
 import React from "react";
-import { CardWithCode } from "../CardWithCode";
-import { Title } from "../Title";
-import { SelectedText } from "../SelectedText/SelectedText";
 
 export const Component = () => {
   const codeFunction1 = `function Welcome(props) {

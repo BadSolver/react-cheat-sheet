@@ -1,5 +1,5 @@
-import { CardWithCode } from "components/CardWithCode";
-import { Title } from "components/Title";
+
+import { CardWithCode, Title } from "components";
 import React from "react";
 
 export const Props = () => {

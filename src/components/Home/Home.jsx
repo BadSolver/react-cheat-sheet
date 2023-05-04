@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
-import { Title } from "components/Title";
-import { CardWithCode } from "components/CardWithCode";
+import { CardWithCode, Title } from "components";
 
 export const Home = () => {
   const codeOne = `class ShoppingList extends React.Component {

@@ -1,8 +1,7 @@
 import React from "react";
 import "./App.css";
-
-import { Navbar } from "./components/Navbar/Navbar";
-import { AppRouter } from "router/AppRouter";
+import { AppRouter } from "router";
+import { Navbar } from "components";
 
 function App() {
   return (
