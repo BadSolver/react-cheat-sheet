@@ -1,4 +1,3 @@
-
 import { CardWithCode, Title } from "components";
 import React from "react";
 
@@ -31,7 +30,6 @@ ReactDOM.render(
       <p>Функциональные компоненты свойства принимают в качестве аргумента.</p>
       <p>Props представляют собой объект, содержащие свойства.</p>
       <p>Обратиться к ним можно - props.имя-свойства.</p>
-      <p>Props - только для чтения.</p>
       <CardWithCode codeString={codeOne} />
       <p>
         Классовые компоненты свойства принимают по умолчанию и обратиться к ним
