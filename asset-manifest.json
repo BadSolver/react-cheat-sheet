@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-cheat-sheet/static/css/main.ebca3800.css",
+    "main.js": "/react-cheat-sheet/static/js/main.17c73792.js",
+    "static/media/background.jpg": "/react-cheat-sheet/static/media/background.4e81e05a1428d842baa6.jpg",
+    "index.html": "/react-cheat-sheet/index.html",
+    "main.ebca3800.css.map": "/react-cheat-sheet/static/css/main.ebca3800.css.map",
+    "main.17c73792.js.map": "/react-cheat-sheet/static/js/main.17c73792.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebca3800.css",
+    "static/js/main.17c73792.js"
+  ]
+}
