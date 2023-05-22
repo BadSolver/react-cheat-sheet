@@ -19,6 +19,8 @@ import {
   State,
   VirtualDom,
 } from "components";
+import { Clock } from "components/Clock/Clock";
+import { User } from "components/Clock/User";
 
 export const AppRouter = () => {
   return (
@@ -38,7 +40,7 @@ export const AppRouter = () => {
       <Route path={route.EFFECT} element={<Effect />} />
       <Route path={route.CONTEXT} element={<Context />} />
       <Route path={route.ROUTER} element={<RouterComponent />} />
-      <Route path={route.FORM} element={<Form />} />
+      <Route path={route.FORM} element={<User />} />
     </Routes>
   );
 };
